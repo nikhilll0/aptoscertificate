@@ -1,0 +1,15 @@
+    [package]
+    name = "DecentralizedLottery"
+    version = "1.0.0"
+    authors = []
+
+    [addresses]
+    MyModule ='0x531cd057aa46bf6b9efa4887d2bbede87b096c79c3d0e7723c007861fae033ee'
+    [dev-addresses]
+
+    [dependencies.AptosFramework]
+    git = "https://github.com/aptos-labs/aptos-core.git"
+    rev = "mainnet"
+    subdir = "aptos-move/framework/aptos-framework"
+
+    [dev-dependencies]
